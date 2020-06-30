@@ -1,0 +1,14 @@
+.section-team {
+  background-color: $color-background-secondary;
+
+  &__list {
+    @extend %grid;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    @extend %grid__item;
+    width: calc((100% - 4 * 30px) / 4);
+  }
+}

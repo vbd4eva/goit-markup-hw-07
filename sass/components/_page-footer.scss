@@ -1,0 +1,44 @@
+.page-footer {
+  background-color: $color-footer-background;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &--pale {
+    color: $color-pale;
+  }
+
+  &__row {
+    @extend %grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: -60px;
+  }
+
+  &__item {
+    @extend %grid__item;
+
+    width: calc((100% - 4 * 30px) / 4);
+
+    margin-bottom: 60px;
+    text-align: left;
+
+    &:last-child {
+      flex-grow: 1;
+    }
+  }
+
+  &__subject {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+  }
+
+  &__logo {
+    color: $color-pale;
+    margin-bottom: 20px;
+  }
+}

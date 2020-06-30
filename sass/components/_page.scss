@@ -1,0 +1,26 @@
+.page {
+  margin: 0;
+  color: $color-text-primary;
+  background-color: $color-background-primary;
+
+  @include font($font-basic);
+
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1200px;
+  }
+
+  &__section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  &__section-title {
+    padding-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+  }
+}

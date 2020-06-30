@@ -1,0 +1,26 @@
+.contact-us {
+  display: flex;
+  @extend %grid;
+
+  &__item {
+    @extend %grid__item;
+  }
+
+  &__link {
+    @extend %accent-hover;
+    display: flex;
+    padding: 28px 0;
+    color: $color-text-primary;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+
+  &__icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+
+    fill: currentColor;
+  }
+}

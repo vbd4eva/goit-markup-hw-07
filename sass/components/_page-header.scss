@@ -1,0 +1,20 @@
+.page-header {
+  border-bottom: 1px solid #ececec;
+
+  &__row {
+    min-height: 60px;
+
+    display: flex;
+    align-items: center;
+
+    min-height: 80px;
+  }
+
+  //mix`s
+  &__logo {
+    margin-right: 85px;
+  }
+  &__contact-us {
+    margin-left: auto;
+  }
+}

@@ -1,0 +1,33 @@
+//break points
+$breakpoint-1: 480px;
+$breakpoint-2: 768px;
+$breakpoint-3: 1200px;
+
+//fonts
+$font-basic: "Roboto", sans-serif;
+$font-logo: "Raleway", sans-serif;
+
+//colors
+$color-text-primary: #757575;
+$color-text-title: #212121;
+
+$color-accent: #2196f3;
+$color-pale: #ffffff;
+$color-light: #afb1b8;
+
+$color-background-primary: #ffffff;
+$color-background-secondary: #f5f4fa;
+$color-background-transparent: rgba(47, 48, 58, 0.8);
+
+$color-footer-background: #2f303a;
+$color-address: rgba(255, 255, 255, 0.4);
+$color-social--on-dark: rgba(255, 255, 255, 0.1);
+// $color-copyright: rgba(255, 255, 255, 0.4);
+
+$backdrop-bg: rgba(0, 0, 0, 0.5);
+
+$portfolio-cell-border: #eeeeee;
+$portfolio-cart-overlay: rgba(33, 150, 243, 0.9);
+
+//grid-margins
+$grid-margin: 30px;

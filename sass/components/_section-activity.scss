@@ -1,0 +1,31 @@
+.section-activity {
+  &__list {
+    @extend %grid;
+    display: flex;
+  }
+  &__item {
+    @extend %grid__item;
+    position: relative;
+    border-radius: 4px;
+  }
+  &__icon {
+    display: block;
+  }
+  &__subject {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    display: block;
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+    background-color: $color-background-transparent;
+    color: $color-pale;
+
+    font-weight: 700;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}

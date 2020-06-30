@@ -1,0 +1,30 @@
+.social-list {
+  display: inline-flex;
+  padding-left: 0px;
+  margin-left: -5px;
+  margin-right: -5px;
+
+  &__item {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  &__link {
+    @extend %accent-bg-hover;
+    display: block;
+    width: 44px;
+    height: 44px;
+    padding: 11px;
+    border-radius: 22px;
+    color: $color-light;
+  }
+  &__link--on-dark {
+    background-color: $color-social--on-dark;
+    color: $color-pale;
+  }
+
+  &__icon {
+    fill: currentColor;
+    width: 22px;
+    height: 22px;
+  }
+}
